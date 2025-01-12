@@ -1,0 +1,16 @@
+.musicProfiles {
+     padding: 2rem;
+     text-align: center;
+}
+
+.embeds {
+     display: flex;
+     flex-direction: column;
+     gap: 2rem;
+     align-items: center;
+}
+
+.embed {
+     width: 100%;
+     max-width: 600px;
+}
