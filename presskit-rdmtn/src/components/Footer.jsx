@@ -1,10 +1,10 @@
 import styles from '../styles/Footer.module.css';
 import React from 'react';
 
-const Footer = () => {
+function Footer () {
      return (
           <footer className={styles.footer}>
-               <p>© 2025 Nombre Artístico. Todos los derechos reservados.</p>
+               <p>© 2025 RDMTN. Todos los derechos reservados.</p>
           </footer>
      );
 };

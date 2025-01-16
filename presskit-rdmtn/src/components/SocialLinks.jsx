@@ -1,7 +1,7 @@
 import styles from '../styles/SocialLinks.module.css';
 import React from 'react';
 
-const SocialLinks = () => {
+function SocialLinks  () {
      const links = [
           { name: 'Soundcloud', url: 'https://soundcloud.com/rdmtn33' },
           { name: 'Instagram', url: 'https://www.instagram.com/rdmtn.arzfl/' },

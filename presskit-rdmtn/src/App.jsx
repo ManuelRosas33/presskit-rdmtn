@@ -4,17 +4,21 @@ import Bio from './components/Bio';
 import SocialLinks from './components/SocialLinks';
 import MusicProfiles from './components/MusicProfiles';
 import Footer from './components/Footer';
+import Media from './components/Media';
 
-const App = () => {
+import './App.css'
+
+function App  () {
   return (
     <div>
       <Header />
       <Bio />
-      <SocialLinks />
       <MusicProfiles />
+      <Media />
+      <SocialLinks />
       <Footer />
     </div>
   );
 };
 
-export default App;
+export default App;       

@@ -1,9 +1,9 @@
 import styles from '../styles/Bio.module.css'
 import React from 'react';
 
-const Biografia = ( ) => {
+function Biografia ( )  {
      return (
-          <section className='styles.bio'>
+          <section className={styles.bio}>
                <h2> Biografía </h2>
                <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta culpa nostrum consequuntur, 

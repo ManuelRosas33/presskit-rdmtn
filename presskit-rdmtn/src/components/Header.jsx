@@ -1,10 +1,10 @@
 import styles from '../styles/Header.module.css';
 import React from 'react';
 
-const Header = () => {
+function Header ()  {
   return (
     <header className={styles.header}>
-      <h1>Nombre Artístico</h1>
+      <h1>RDMTN</h1>
     </header>
   );
 };

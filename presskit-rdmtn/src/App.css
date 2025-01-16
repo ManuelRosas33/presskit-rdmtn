@@ -1,12 +1,18 @@
 body {
      margin: 0;
-     font-family: 'Arial', sans-serif;
-     background-color: #f4f4f4;
-     color: #333;
+     padding: 0;
+     background-color: black;
+     background-image: url('../src/assents/fotos-presskit/DSC02769\ copy\ -\ copia.jpg');
+     background-size: cover; 
+     background-repeat: no-repeat; 
+     background-position: center; 
+     height: 100vh; 
 }
+
 
 h1,
 h2 {
+     text-align: center;
      margin: 0;
 }
 
